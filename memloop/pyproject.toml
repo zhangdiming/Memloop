@@ -1,0 +1,20 @@
+[project]
+name = "memloop"
+version = "0.1.0"
+description = "Detection-attribution-recovery loop for LLM agent memory, with auditable certificates"
+requires-python = ">=3.10"
+dependencies = ["numpy"]
+
+[project.optional-dependencies]
+st = ["sentence-transformers"]
+test = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["memloop"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

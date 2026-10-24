@@ -1,0 +1,3 @@
+[{"victim": "apple", "target": "tomato"}, {"victim": "potato", "target": "egg"}, {"victim": "mug", "target": "cup"},
+ {"victim": "bowl", "target": "plate"}, {"victim": "soapbar", "target": "soapbottle"}, {"victim": "cloth", "target": "handtowel"},
+ {"victim": "cellphone", "target": "creditcard"}, {"victim": "book", "target": "cd"}, {"victim": "pencil", "target": "pen"}]
